@@ -9,21 +9,20 @@
     </head>
     <body>
         <header id="header" role="banner">
-            <nav id="nav-bar" role="navigation">
-                <div class="links">
-                    <a href="#" class="link" aria-label="gmail">Gmail</a>
-                    <a href="#" class="link" aria-label="google image search">Images</a>
-                </div>
-                <div class="google-apps">
-                    <button class="google-apps__btn" role="link" aria-label="google apps">
-                      <i class="fas fa-shapes"></i>
-                    </button>
-                </div>
-                <div class="google-signin">
-                    <button class="google-signin__btn" role="log" aria-label="acount avatar">
-                      <i class="fas fa-user-circle"></i>
-                    </button>
-                </div>
+            <nav class="nav-bar" role="navigation">
+                <div class="nav-bar__links">
+                <a href="#" class="nav-bar__links__link" aria-label="gmail">Gmail</a>
+                <a href="#" class="nav-bar__links__link" aria-label="google image search">Images</a>
+              </div>
+
+                <button class="nav-bar__apps-btn" role="link" aria-label="google apps">
+                    <i class="fas fa-th"></i>
+                </button>
+
+                <button class="nav-bar__acount-btn" role="log" aria-label="acount avatar">
+                    <i class="fas fa-user-circle"></i>
+                </button>
+
             </nav>
         </header>
         <main id="main" role="main">
@@ -35,15 +34,15 @@
                 <button class="search-bar__submit" disabled>
                     <i class="fas fa-search"></i>
                 </button>
-                <input type="text" name="email" id="email" aria-label="search" role="searchbox"/>
+                <input type="text" name="email" id="email" aria-label="search" role="searchbox" class="search-bar__input"/>
                 <button class="search-bar__voice">
                     <i class="fas fa-microphone" aria-label="search by voice"></i>
                 </button>
             </div>
 
-            <div class="search-btn">
-                <button class="search-btn__search" aria-label="google search" type="submit" role="search">Google Search</button>
-                <button class="searhc-btn__lucky" aria-label="i'm feeling lucky">I'm Feeling Lucky</button>
+            <div class="search-btns">
+                <button class="search-btns__btn" aria-label="google search" type="submit" role="search">Google Search</button>
+                <button class="search-btns__btn" aria-label="i'm feeling lucky">I'm Feeling Lucky</button>
             </div>
 
             <div class="languages">
@@ -62,13 +61,13 @@
             </div>
             <hr role="separator">
             <div class="footer__main">
-                <div class="infos">
+                <div class="footer__main__infos left">
                     <a href="#" class="infos__link">Advertising</a>
                     <a href="#" class="infos__link">Business</a>
                     <a href="#" class="infos__link">About</a>
                     <a href="#" class="infos__link">How Search works</a>
                 </div>
-                <div class="infos">
+                <div class="footer__main__infos right" >
                     <a href="#" class="infos__link">Privacy</a>
                     <a href="#" class="infos__link">Terms</a>
                     <a href="#" class="infos__link">Settings</a>
