@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #f2f2f2;
+  --clr-sec: #e6e6e6;
+}
+/*# sourceMappingURL=main.css.map */
