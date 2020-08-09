@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/main.css">
+        <link rel="stylesheet" href="./style/fontawesome-free-5.14.0-web/css/all.css">
+        <title>Google</title>
+    </head>
+    <body>
+        <header id="header" role="banner">
+            <nav id="nav-bar" role="navigation">
+                <div class="links">
+                    <a href="#" class="link" aria-label="gmail">Gmail</a>
+                    <a href="#" class="link" aria-label="google image search">Images</a>
+                </div>
+                <div class="google-apps">
+                    <button class="google-apps__btn" role="link">
+                        <img src="./img/google-apps.png" aria-label="google apps" class="google-apps__icons"/>
+                    </button>
+                </div>
+                <div class="google-signin">
+                    <button class="google-signin__btn" role="log">
+                        <img src="./img/signin.png" aria-label="google sign in account" class="google-signin__img"/>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main id="main" role="main">
+            <div class="google-logo">
+                <img src="./img/google-logo.png" alt="google"/>
+            </div>
 
+            <div class="search-bar">
+                <button class="search-bar__submit" disabled>
+                    <i class="fas fa-search"></i>
+                </button>
+                <input type="text" name="email" id="email" aria-label="search" role="searchbox"/>
+                <button class="search-bar__voice">
+                    <i class="fas fa-microphone" aria-label="search by voice"></i>
+                </button>
+            </div>
+
+            <div class="search-btn">
+                <button class="search-btn__search" aria-label="google search" type="submit" role="search">Google Search</button>
+                <button class="searhc-btn__lucky" aria-label="i'm feeling lucky">I'm Feeling Lucky</button>
+            </div>
+
+            <div class="languages">
+                <p>Google offred in:
+                    <a href="#">Français</a>
+                    <a href="#">العربية</a>
+                </p>
+            </div>
+        </main>
+
+        <footer id="footer" role="contentinfo">
+            <div class="country" aria-label="current country">
+                <span>
+                    Algeria
+                </span>
+            </div>
+            <hr role="separator">
+            <div class="footer__main">
+                <div class="infos">
+                    <a href="#" class="infos__link">Advertising</a>
+                    <a href="#" class="infos__link">Business</a>
+                    <a href="#" class="infos__link">About</a>
+                    <a href="#" class="infos__link">How Search works</a>
+                </div>
+                <div class="infos">
+                    <a href="#" class="infos__link">Privacy</a>
+                    <a href="#" class="infos__link">Terms</a>
+                    <a href="#" class="infos__link">Settings</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
