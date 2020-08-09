@@ -72,6 +72,11 @@ body {
   cursor: pointer;
 }
 
+#header .nav-bar__apps-btn:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
 #header .nav-bar__acount-btn {
   font-size: 2rem;
   width: 35px;
